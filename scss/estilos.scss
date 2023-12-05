@@ -60,11 +60,18 @@ body {
           margin: 20px;
           line-height: 1.5;
         }
+        }
         .principal {
           margin-bottom: 20px 
           img {
             vertical-align: top;
             width: 100%;
+          }
+          .pala{
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            &:hover{
+              transform: scale(1.5,1.5);
+            }
           }
         }
         .creciendo{
@@ -95,6 +102,5 @@ body {
           font-size: 2rem;
       }
     }
-  }
 
   @import "mediaQuery";
